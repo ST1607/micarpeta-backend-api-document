@@ -1,17 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.9" />
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MiCarpeta.Document.Application\MiCarpeta.Document.Application.csproj" />
+    <ProjectReference Include="..\MiCarpeta.Document.Common\MiCarpeta.Document.Common.csproj" />
     <ProjectReference Include="..\MiCarpeta.Document.Domain\MiCarpeta.Document.Domain.csproj" />
   </ItemGroup>
-
 
 </Project>
