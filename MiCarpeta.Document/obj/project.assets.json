@@ -5893,23 +5893,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\johanna.montoya\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\German.Pena\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Personal\\EAFIT\\Arquitecturas avanzadas de software\\MiCarpeta\\micarpeta-backend-api-document\\MiCarpeta.Document\\MiCarpeta.Document.Presentation.csproj",
+      "projectUniqueName": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document\\MiCarpeta.Document.Presentation.csproj",
       "projectName": "MiCarpeta.Document.Presentation",
-      "projectPath": "C:\\Personal\\EAFIT\\Arquitecturas avanzadas de software\\MiCarpeta\\micarpeta-backend-api-document\\MiCarpeta.Document\\MiCarpeta.Document.Presentation.csproj",
-      "packagesPath": "C:\\Users\\johanna.montoya\\.nuget\\packages\\",
-      "outputPath": "C:\\Personal\\EAFIT\\Arquitecturas avanzadas de software\\MiCarpeta\\micarpeta-backend-api-document\\MiCarpeta.Document\\obj\\",
+      "projectPath": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document\\MiCarpeta.Document.Presentation.csproj",
+      "packagesPath": "C:\\Users\\German.Pena\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\johanna.montoya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\German.Pena\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5917,17 +5913,16 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://ec2-3-89-115-221.compute-1.amazonaws.com/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Personal\\EAFIT\\Arquitecturas avanzadas de software\\MiCarpeta\\micarpeta-backend-api-document\\MiCarpeta.Document.Application\\MiCarpeta.Document.Application.csproj": {
-              "projectPath": "C:\\Personal\\EAFIT\\Arquitecturas avanzadas de software\\MiCarpeta\\micarpeta-backend-api-document\\MiCarpeta.Document.Application\\MiCarpeta.Document.Application.csproj"
+            "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Application\\MiCarpeta.Document.Application.csproj": {
+              "projectPath": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Application\\MiCarpeta.Document.Application.csproj"
             },
-            "C:\\Personal\\EAFIT\\Arquitecturas avanzadas de software\\MiCarpeta\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain\\MiCarpeta.Document.Domain.csproj": {
-              "projectPath": "C:\\Personal\\EAFIT\\Arquitecturas avanzadas de software\\MiCarpeta\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain\\MiCarpeta.Document.Domain.csproj"
+            "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain\\MiCarpeta.Document.Domain.csproj": {
+              "projectPath": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain\\MiCarpeta.Document.Domain.csproj"
             }
           }
         }
@@ -5964,7 +5959,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

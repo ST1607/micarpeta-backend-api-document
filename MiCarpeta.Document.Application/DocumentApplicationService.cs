@@ -25,7 +25,7 @@ namespace MiCarpeta.Document.Application
 
         public ResponseViewModel ValidarDocumento(long idDocumento)
         {
-            Response response = new Response();
+            Response response = DocumentoDomainService.ValidarDocumento(idDocumento);
 
             return Mapper.Map<ResponseViewModel>(response);
         }

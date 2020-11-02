@@ -6,11 +6,12 @@ using RestSharp;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Net;
 using System.Web;
 
 namespace MiCarpeta.Document.Domain
 {
-    public class DocumentoDomainService: IDocumentoDomainService
+    public class DocumentoDomainService : IDocumentoDomainService
     {
         private readonly IConfiguration Configuration;
         private readonly IS3Client S3Client;
@@ -35,7 +36,8 @@ namespace MiCarpeta.Document.Domain
 
             if (string.IsNullOrEmpty(ruta))
             {
-                return new Response { 
+                return new Response
+                {
                     Estado = 201,
                     Errores = new List<string>() { "Se ha presentado un error al intentar cargar el archivo al S3." }
                 };
@@ -44,7 +46,7 @@ namespace MiCarpeta.Document.Domain
             Documentos documento = new Documentos
             {
                 Id = DateTime.UtcNow.Ticks,
-                IdCiudadano = idUsuario, 
+                IdCiudadano = idUsuario,
                 Estado = "Temporal",
                 FechaCarga = DateTime.UtcNow,
                 FechaEstado = DateTime.UtcNow,
@@ -54,12 +56,57 @@ namespace MiCarpeta.Document.Domain
 
             DocumentosRepository.Add(documento);
 
-            return new Response { 
+            return new Response
+            {
                 Estado = 200,
                 Mensaje = "El archivo ha sido cargado exitosamente."
             };
         }
-        
+
+        public Response ValidarDocumento(long idDocumento)
+        {
+            Documentos documento = DocumentosRepository.ObtenerPorId(idDocumento);
+
+            if (documento != null)
+            {
+                Ciudadano ciudadano = CiudadanoRepository.ObtenerPorId(documento.IdCiudadano);
+
+                IRestResponse respuesta = ValidarDocumentoCentralizador(ciudadano.Identificacion, documento.URLS3, documento.NombreArchivo);
+
+                if (respuesta.StatusCode.Equals(HttpStatusCode.OK))
+                {
+                    return new Response()
+                    {
+                        Estado = 200,
+                        Mensaje = respuesta.Content
+                    };
+                }
+                else
+                {
+                    return new Response()
+                    {
+                        Estado = 400,
+                        Errores = new List<string>()
+                        {
+                            respuesta.Content
+                        }
+                    };
+                }
+
+            }
+            else
+            {
+                return new Response
+                {
+                    Estado = 201,
+                    Errores = new List<string>()
+                    {
+                        "El documento no se encuentra registrado."
+                    }
+                };
+            }
+        }
+
         public Response ListarDocumentosPorCiudadano(long idCiudadano)
         {
             List<Documentos> documentos = DocumentosRepository.ListarDocumentosCiudadano(idCiudadano);
@@ -67,10 +114,10 @@ namespace MiCarpeta.Document.Domain
             if (documentos.Count > 0)
             {
                 return new Response
-            {
-                Estado = 200,
-                Data = documentos
-            };
+                {
+                    Estado = 200,
+                    Data = documentos
+                };
             }
 
             return new Response

@@ -6,6 +6,8 @@ namespace MiCarpeta.Document.Domain
     {
         Response SubirArchivo(string archivoBase64, long idUsuario, string nombreArchivo);
 
+        Response ValidarDocumento(long idDocumento);
+
         Response ListarDocumentosPorCiudadano(long idCiudadano);
     }
 }
