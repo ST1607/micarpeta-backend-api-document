@@ -1,5 +1,4 @@
-﻿using Amazon.DynamoDBv2.DocumentModel;
-using MiCarpeta.Document.Common;
+﻿using MiCarpeta.Document.Common;
 using MiCarpeta.Document.Domain.Entities;
 using MiCarpeta.Document.Repository.Entities;
 using Microsoft.Extensions.Configuration;

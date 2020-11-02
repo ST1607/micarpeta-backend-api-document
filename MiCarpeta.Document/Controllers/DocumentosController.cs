@@ -9,6 +9,7 @@ using System.Security.Claims;
 using System.Linq;
 using System;
 using Microsoft.AspNetCore.Authorization;
+using System.Threading.Tasks;
 
 namespace MiCarpeta.Document.Presentation.Controllers
 {
@@ -30,7 +31,7 @@ namespace MiCarpeta.Document.Presentation.Controllers
 
         [Authorize(Roles = "Ciudadano")]
         [HttpPost("subirDocumento")]
-        public async System.Threading.Tasks.Task<IActionResult> SubirDocumentoAsync([FromBody] Documentos documento)
+        public async Task<IActionResult> SubirDocumentoAsync([FromBody] Documentos documento)
         {
             if (!ModelState.IsValid)
             {
@@ -53,6 +54,60 @@ namespace MiCarpeta.Document.Presentation.Controllers
                 {
                     documento.IdCiudadano = long.Parse(idUsuario);
                     ResponseViewModel response = DocumentApplicationService.SubirArchivo(documento.Base64, documento.IdCiudadano, documento.NombreArchivo);
+
+                    return Ok(response);
+                }
+            }
+
+            return BadRequest(new ResponseViewModel
+            {
+                Estado = 401,
+                Errores = new List<string>() { "Unauthorized" }
+            });
+        }
+
+        [Authorize(Roles = "Ciudadano")]
+        [HttpPost("validarDocumento")]
+        public async Task<IActionResult> ValidarDocumentoAsync(long idDocumento)
+        {
+            string token = await HttpContext.GetTokenAsync("access_token");
+
+            Claim claimIdUsuario = User.Claims.FirstOrDefault(x => x.Type.Equals("IdUsuario", StringComparison.InvariantCultureIgnoreCase));
+
+            if (claimIdUsuario != null)
+            {
+                string idUsuario = claimIdUsuario.Value;
+
+                if (UsuariosApplicationService.ValidarToken(token, idUsuario))
+                {
+                    ResponseViewModel response = DocumentApplicationService.ValidarDocumento(idDocumento);
+
+                    return Ok(response);
+                }
+            }
+
+            return BadRequest(new ResponseViewModel
+            {
+                Estado = 401,
+                Errores = new List<string>() { "Unauthorized" }
+            });
+        }
+
+        [Authorize(Roles = "Ciudadano")]
+        [HttpGet("listarDocumentos")]
+        public async Task<IActionResult> ListarDocumentoAsync(long idCiudadano)
+        {
+            string token = await HttpContext.GetTokenAsync("access_token");
+
+            Claim claimIdUsuario = User.Claims.FirstOrDefault(x => x.Type.Equals("IdUsuario", StringComparison.InvariantCultureIgnoreCase));
+
+            if (claimIdUsuario != null)
+            {
+                string idUsuario = claimIdUsuario.Value;
+
+                if (UsuariosApplicationService.ValidarToken(token, idUsuario))
+                {
+                    ResponseViewModel response = DocumentApplicationService.ListarDocumentosPorCiudadano(idCiudadano);
 
                     return Ok(response);
                 }

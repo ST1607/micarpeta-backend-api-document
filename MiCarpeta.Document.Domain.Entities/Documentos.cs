@@ -4,6 +4,7 @@ namespace MiCarpeta.Document.Domain.Entities
 {
     public class Documentos
     {
+        public long Id { get; set; }
         public long IdCiudadano { get; set; }
 
         public string Base64 { get; set; }

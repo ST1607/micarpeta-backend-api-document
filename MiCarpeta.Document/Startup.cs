@@ -41,6 +41,8 @@ namespace MiCarpeta.Document
             services.AddScoped<IUsuariosDomainService, UsuariosDomainService>();
             services.AddScoped<IUsuariosRepository, UsuariosRepository>();
 
+            services.AddScoped<ICiudadanoRepository, CiudadanoRepository>();
+
             services.AddScoped<IS3Client, S3Client>();
 
             AutoMapperConfig.Initialize();

@@ -22,5 +22,19 @@ namespace MiCarpeta.Document.Application
 
             return Mapper.Map<ResponseViewModel>(response);
         }
+
+        public ResponseViewModel ValidarDocumento(long idDocumento)
+        {
+            Response response = new Response();
+
+            return Mapper.Map<ResponseViewModel>(response);
+        }
+
+        public ResponseViewModel ListarDocumentosPorCiudadano(long idCiudadano)
+        {
+            Response response = DocumentoDomainService.ListarDocumentosPorCiudadano(idCiudadano);
+
+            return Mapper.Map<ResponseViewModel>(response);
+        }
     }
 }
