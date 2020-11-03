@@ -75,6 +75,9 @@ namespace MiCarpeta.Document.Domain
 
                 if (respuesta.StatusCode.Equals(HttpStatusCode.OK))
                 {
+                    documento.Estado = "Válido";
+                    DocumentosRepository.Update(documento);
+
                     return new Response()
                     {
                         Estado = 200,
@@ -83,6 +86,9 @@ namespace MiCarpeta.Document.Domain
                 }
                 else
                 {
+                    documento.Estado = "Rechazado";
+                    DocumentosRepository.Update(documento);
+
                     return new Response()
                     {
                         Estado = 400,
