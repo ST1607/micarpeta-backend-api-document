@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document\\MiCarpeta.Document.Presentation.csproj": {}
+    "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document\\MiCarpeta.Document.Presentation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Application\\MiCarpeta.Document.Application.csproj": {
+    "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Application\\MiCarpeta.Document.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Application\\MiCarpeta.Document.Application.csproj",
+        "projectUniqueName": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Application\\MiCarpeta.Document.Application.csproj",
         "projectName": "MiCarpeta.Document.Application",
-        "projectPath": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Application\\MiCarpeta.Document.Application.csproj",
-        "packagesPath": "C:\\Users\\German.Pena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Application\\obj\\",
+        "projectPath": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Application\\MiCarpeta.Document.Application.csproj",
+        "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
+        "outputPath": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\German.Pena\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\germa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -27,11 +32,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Common\\MiCarpeta.Document.Common.csproj": {
-                "projectPath": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Common\\MiCarpeta.Document.Common.csproj"
+              "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Common\\MiCarpeta.Document.Common.csproj": {
+                "projectPath": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Common\\MiCarpeta.Document.Common.csproj"
               },
-              "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain\\MiCarpeta.Document.Domain.csproj": {
-                "projectPath": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain\\MiCarpeta.Document.Domain.csproj"
+              "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain\\MiCarpeta.Document.Domain.csproj": {
+                "projectPath": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain\\MiCarpeta.Document.Domain.csproj"
               }
             }
           }
@@ -69,18 +74,23 @@
         }
       }
     },
-    "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Common\\MiCarpeta.Document.Common.csproj": {
+    "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Common\\MiCarpeta.Document.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Common\\MiCarpeta.Document.Common.csproj",
+        "projectUniqueName": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Common\\MiCarpeta.Document.Common.csproj",
         "projectName": "MiCarpeta.Document.Common",
-        "projectPath": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Common\\MiCarpeta.Document.Common.csproj",
-        "packagesPath": "C:\\Users\\German.Pena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Common\\obj\\",
+        "projectPath": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Common\\MiCarpeta.Document.Common.csproj",
+        "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
+        "outputPath": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Common\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\German.Pena\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\germa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -131,18 +141,23 @@
         }
       }
     },
-    "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain.Entities\\MiCarpeta.Document.Domain.Entities.csproj": {
+    "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain.Entities\\MiCarpeta.Document.Domain.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain.Entities\\MiCarpeta.Document.Domain.Entities.csproj",
+        "projectUniqueName": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain.Entities\\MiCarpeta.Document.Domain.Entities.csproj",
         "projectName": "MiCarpeta.Document.Domain.Entities",
-        "projectPath": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain.Entities\\MiCarpeta.Document.Domain.Entities.csproj",
-        "packagesPath": "C:\\Users\\German.Pena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain.Entities\\obj\\",
+        "projectPath": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain.Entities\\MiCarpeta.Document.Domain.Entities.csproj",
+        "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
+        "outputPath": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain.Entities\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\German.Pena\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\germa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -183,18 +198,23 @@
         }
       }
     },
-    "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain\\MiCarpeta.Document.Domain.csproj": {
+    "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain\\MiCarpeta.Document.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain\\MiCarpeta.Document.Domain.csproj",
+        "projectUniqueName": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain\\MiCarpeta.Document.Domain.csproj",
         "projectName": "MiCarpeta.Document.Domain",
-        "projectPath": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain\\MiCarpeta.Document.Domain.csproj",
-        "packagesPath": "C:\\Users\\German.Pena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain\\obj\\",
+        "projectPath": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain\\MiCarpeta.Document.Domain.csproj",
+        "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
+        "outputPath": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\German.Pena\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\germa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -206,11 +226,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain.Entities\\MiCarpeta.Document.Domain.Entities.csproj": {
-                "projectPath": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain.Entities\\MiCarpeta.Document.Domain.Entities.csproj"
+              "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain.Entities\\MiCarpeta.Document.Domain.Entities.csproj": {
+                "projectPath": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain.Entities\\MiCarpeta.Document.Domain.Entities.csproj"
               },
-              "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Repository\\MiCarpeta.Document.Repository.csproj": {
-                "projectPath": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Repository\\MiCarpeta.Document.Repository.csproj"
+              "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Repository\\MiCarpeta.Document.Repository.csproj": {
+                "projectPath": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Repository\\MiCarpeta.Document.Repository.csproj"
               }
             }
           }
@@ -256,18 +276,23 @@
         }
       }
     },
-    "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Repository\\MiCarpeta.Document.Repository.csproj": {
+    "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Repository\\MiCarpeta.Document.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Repository\\MiCarpeta.Document.Repository.csproj",
+        "projectUniqueName": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Repository\\MiCarpeta.Document.Repository.csproj",
         "projectName": "MiCarpeta.Document.Repository",
-        "projectPath": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Repository\\MiCarpeta.Document.Repository.csproj",
-        "packagesPath": "C:\\Users\\German.Pena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Repository\\obj\\",
+        "projectPath": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Repository\\MiCarpeta.Document.Repository.csproj",
+        "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
+        "outputPath": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Repository\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\German.Pena\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\germa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -279,11 +304,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Common\\MiCarpeta.Document.Common.csproj": {
-                "projectPath": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Common\\MiCarpeta.Document.Common.csproj"
+              "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Common\\MiCarpeta.Document.Common.csproj": {
+                "projectPath": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Common\\MiCarpeta.Document.Common.csproj"
               },
-              "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain.Entities\\MiCarpeta.Document.Domain.Entities.csproj": {
-                "projectPath": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain.Entities\\MiCarpeta.Document.Domain.Entities.csproj"
+              "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain.Entities\\MiCarpeta.Document.Domain.Entities.csproj": {
+                "projectPath": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain.Entities\\MiCarpeta.Document.Domain.Entities.csproj"
               }
             }
           }
@@ -325,18 +350,23 @@
         }
       }
     },
-    "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document\\MiCarpeta.Document.Presentation.csproj": {
+    "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document\\MiCarpeta.Document.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document\\MiCarpeta.Document.Presentation.csproj",
+        "projectUniqueName": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document\\MiCarpeta.Document.Presentation.csproj",
         "projectName": "MiCarpeta.Document.Presentation",
-        "projectPath": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document\\MiCarpeta.Document.Presentation.csproj",
-        "packagesPath": "C:\\Users\\German.Pena\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document\\obj\\",
+        "projectPath": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document\\MiCarpeta.Document.Presentation.csproj",
+        "packagesPath": "C:\\Users\\germa\\.nuget\\packages\\",
+        "outputPath": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\German.Pena\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\germa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -348,11 +378,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Application\\MiCarpeta.Document.Application.csproj": {
-                "projectPath": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Application\\MiCarpeta.Document.Application.csproj"
+              "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Application\\MiCarpeta.Document.Application.csproj": {
+                "projectPath": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Application\\MiCarpeta.Document.Application.csproj"
               },
-              "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain\\MiCarpeta.Document.Domain.csproj": {
-                "projectPath": "C:\\Users\\German.Pena\\source\\repos\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain\\MiCarpeta.Document.Domain.csproj"
+              "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain\\MiCarpeta.Document.Domain.csproj": {
+                "projectPath": "D:\\German\\Development\\EAFIT\\CarpetaCiudadana\\micarpeta-backend-api-document\\MiCarpeta.Document.Domain\\MiCarpeta.Document.Domain.csproj"
               }
             }
           }
@@ -369,6 +399,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[3.1.9, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.9, )"
             }
           },
           "imports": [

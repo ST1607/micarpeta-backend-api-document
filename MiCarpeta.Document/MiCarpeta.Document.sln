@@ -5,15 +5,17 @@ VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiCarpeta.Document.Presentation", "MiCarpeta.Document.Presentation.csproj", "{6A26D474-B451-45F0-BB11-034B4F84F407}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiCarpeta.Document.Application", "..\MiCarpeta.Document.Application\MiCarpeta.Document.Application.csproj", "{E4A6A09B-9F56-45F0-80BD-37F0F2874783}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiCarpeta.Document.Application", "..\MiCarpeta.Document.Application\MiCarpeta.Document.Application.csproj", "{E4A6A09B-9F56-45F0-80BD-37F0F2874783}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiCarpeta.Document.Domain", "..\MiCarpeta.Document.Domain\MiCarpeta.Document.Domain.csproj", "{E35B3E6B-AB0C-4521-8C37-EFE8AE276F96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiCarpeta.Document.Domain", "..\MiCarpeta.Document.Domain\MiCarpeta.Document.Domain.csproj", "{E35B3E6B-AB0C-4521-8C37-EFE8AE276F96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiCarpeta.Document.Domain.Entities", "..\MiCarpeta.Document.Domain.Entities\MiCarpeta.Document.Domain.Entities.csproj", "{8BF0BE8B-8F49-4D33-BB0E-A84727B9868B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiCarpeta.Document.Domain.Entities", "..\MiCarpeta.Document.Domain.Entities\MiCarpeta.Document.Domain.Entities.csproj", "{8BF0BE8B-8F49-4D33-BB0E-A84727B9868B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiCarpeta.Document.Common", "..\MiCarpeta.Document.Common\MiCarpeta.Document.Common.csproj", "{852B213F-1BAB-4DCB-9849-91B36531ED67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiCarpeta.Document.Common", "..\MiCarpeta.Document.Common\MiCarpeta.Document.Common.csproj", "{852B213F-1BAB-4DCB-9849-91B36531ED67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiCarpeta.Document.Repository", "..\MiCarpeta.Document.Repository\MiCarpeta.Document.Repository.csproj", "{D53F4186-E5BD-4A5B-97A1-1EB9702A35C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiCarpeta.Document.Repository", "..\MiCarpeta.Document.Repository\MiCarpeta.Document.Repository.csproj", "{D53F4186-E5BD-4A5B-97A1-1EB9702A35C5}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "..\docker-compose.dcproj", "{30D89A60-BD85-43D1-8EFE-6F51ED35B55E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{D53F4186-E5BD-4A5B-97A1-1EB9702A35C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D53F4186-E5BD-4A5B-97A1-1EB9702A35C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D53F4186-E5BD-4A5B-97A1-1EB9702A35C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30D89A60-BD85-43D1-8EFE-6F51ED35B55E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30D89A60-BD85-43D1-8EFE-6F51ED35B55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30D89A60-BD85-43D1-8EFE-6F51ED35B55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30D89A60-BD85-43D1-8EFE-6F51ED35B55E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

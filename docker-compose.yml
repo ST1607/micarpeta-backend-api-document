@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  micarpeta.document.presentation:
+    image: ${DOCKER_REGISTRY-}micarpetadocumentpresentation
+    build:
+      context: .
+      dockerfile: MiCarpeta.Document/Dockerfile
